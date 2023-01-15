@@ -5,8 +5,6 @@ import Filters from "./Filters";
 import "./ProductsPage.css";
 
 function ProductsPage() {
-  // const allProducts = data;
-
   const { searchItem } = useContext(ProductsContext);
 
   const [products, setProducts] = useState(data);
