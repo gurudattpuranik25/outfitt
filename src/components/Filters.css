@@ -1,0 +1,38 @@
+.filters__section {
+  background-color: #0e1012;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem;
+}
+
+.filters div {
+  display: flex;
+  gap: 1rem;
+  box-shadow: inset 0px 0px 0px 1px #dfdfdf;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.filters button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.filters button:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.filters .all {
+  box-shadow: none;
+}
+
+.filters .all button {
+  background-color: #dd6858;
+  color: white;
+}

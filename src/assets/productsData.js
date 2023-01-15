@@ -1,0 +1,156 @@
+export const data = [
+  {
+    id: 1,
+    title: "Adidas",
+    description: "Men's Regular T-shirt",
+    rating: "⭐⭐⭐⭐",
+    price: "839",
+    size: "M",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/61H9b-q2LcL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 2,
+    title: "Nike",
+    description: "Men's Regular Fit T-shirt",
+    rating: "⭐⭐⭐",
+    price: "1009",
+    size: "S",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/81p-w0MNq+L._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 3,
+    title: "Van Heusen",
+    description: "Women Sweatshirt",
+    rating: "⭐⭐⭐⭐",
+    price: "1274",
+    size: "L",
+    gender: "Female",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/61QXhfctP3L._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 4,
+    title: "Adidas",
+    description: "Women's Regular Fit T-shirt",
+    rating: "⭐⭐⭐⭐",
+    price: "2599",
+    size: "M",
+    gender: "Female",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/71wqNCXt+iL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 5,
+    title: "Van Heusen",
+    description: "Athleisure Men's fit T-Shirt",
+    rating: "⭐⭐⭐⭐⭐",
+    price: "799",
+    size: "L",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/71x-QD3RL8L._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 6,
+    title: "Nike",
+    description: "Women's Classic Short Sleeve",
+    rating: "⭐⭐⭐",
+    price: "1499",
+    size: "XL",
+    gender: "Female",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/71KVyR0ZE7L._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 7,
+    title: "Adidas",
+    description: "Men Track Pants",
+    rating: "⭐⭐⭐⭐",
+    price: "1799",
+    size: "XL",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/61n2ovSlFzL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 8,
+    title: "Van Heusen",
+    description: "Men's Regular Pants",
+    rating: "⭐⭐⭐⭐",
+    price: "2059",
+    size: "XL",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/717LKNGTNJL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 9,
+    title: "Nike",
+    description: "Men's Slim Fit Track Pants ",
+    rating: "⭐⭐⭐",
+    price: "5099",
+    size: "M",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/71em94DUpBL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 10,
+    title: "Adidas",
+    description: "Women's Trefoil Tee, Ambient",
+    rating: "⭐⭐",
+    price: "899",
+    size: "XL",
+    gender: "Female",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/616NlNqbTCL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 11,
+    title: "Van Heusen",
+    description: "Men's Slim Fit Casual Shirt ",
+    rating: "⭐⭐",
+    price: "599",
+    size: "S",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/91D4V0B9G2L._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 12,
+    title: "Nike",
+    description: "Women Casual Shorts ",
+    rating: "⭐",
+    price: "1789",
+    size: "L",
+    gender: "Female",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/411BApxb+tL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 13,
+    title: "Adidas",
+    description: "Men's Camouflage T-shirt ",
+    rating: "⭐⭐",
+    price: "1259",
+    size: "L",
+    gender: "Male",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/91uxYv9ZuKL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+  {
+    id: 14,
+    title: "Van Heusen",
+    description: "Women's Regular Fit T-shirt ",
+    rating: "⭐⭐⭐",
+    price: "709",
+    size: "S",
+    gender: "Female",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/813ZJ2PgDrL._AC_UL480_FMwebp_QL65_.jpg",
+  },
+];
