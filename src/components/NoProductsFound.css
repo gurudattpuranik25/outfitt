@@ -1,0 +1,10 @@
+.empty__products__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty__products__list img {
+  width: 50%;
+}
