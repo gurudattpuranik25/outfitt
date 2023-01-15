@@ -4,23 +4,31 @@ import Filters from "./Filters";
 import "./ProductsPage.css";
 
 function ProductsPage() {
-  const allProducts = data;
+  // const allProducts = data;
   const [products, setProducts] = useState(data);
 
   const handleGenderFilter = (selectedGender) => {
     setProducts(
-      allProducts.filter((product) => product.gender === selectedGender)
+      products.filter((product) => product.gender === selectedGender)
     );
   };
 
   const handleSizeFilter = (selectedSize) => {
-    setProducts(allProducts.filter((product) => product.size === selectedSize));
+    setProducts(products.filter((product) => product.size === selectedSize));
   };
 
   const handleBrandFilter = (selectedBrand) => {
-    setProducts(
-      allProducts.filter((product) => product.title === selectedBrand)
-    );
+    setProducts(products.filter((product) => product.title === selectedBrand));
+  };
+
+  const handlePriceFilter = (selectedFilter) => {
+    let sortedProducts = [...products];
+    if (selectedFilter === "lowToHigh") {
+      sortedProducts.sort((a, b) => a.price - b.price);
+    } else if (selectedFilter === "highToLow") {
+      sortedProducts.sort((a, b) => b.price - a.price);
+    }
+    setProducts(sortedProducts);
   };
 
   const removeFilters = () => {
@@ -34,6 +42,7 @@ function ProductsPage() {
         handleSizeFilter={handleSizeFilter}
         handleBrandFilter={handleBrandFilter}
         removeFilters={removeFilters}
+        handlePriceFilter={handlePriceFilter}
       />
       <div className="products__list">
         <div className="products">
