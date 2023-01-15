@@ -30,10 +30,10 @@ function Filters({
         </div>
         <div className="priceFilter">
           <button onClick={() => handlePriceFilter("lowToHigh")}>
-            Low to High
+            Low-to-High
           </button>
           <button onClick={() => handlePriceFilter("highToLow")}>
-            High to Low
+            High-to-Low
           </button>
         </div>
         <div className="all">
