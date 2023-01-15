@@ -40,3 +40,26 @@
   background-color: #dd6858;
   color: white;
 }
+
+@media (max-width: 1240px) {
+  .filters div {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  .filters div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 635px) {
+  .filters {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .filters div {
+    flex-direction: row;
+  }
+}

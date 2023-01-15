@@ -17,7 +17,7 @@ function Header() {
         <input
           type="text"
           id="search__input"
-          placeholder="Search"
+          placeholder="Search for t-shirts, track pants & more"
           value={searchItem}
           onChange={searchHandler}
         />

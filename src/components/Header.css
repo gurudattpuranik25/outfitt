@@ -35,3 +35,25 @@
   border: none;
   box-shadow: inset 0px 0px 0px 1px #566171;
 }
+
+@media (max-width: 1170px) {
+  .search__bar {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  .search__bar {
+    width: 60%;
+  }
+}
+
+@media (max-width: 570px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .search__bar {
+    width: 100%;
+  }
+}

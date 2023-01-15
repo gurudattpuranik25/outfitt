@@ -11,9 +11,6 @@ function Filters({
   return (
     <div className="filters__section">
       <div className="filters">
-        <div className="all">
-          <button onClick={removeFilters}>Remove Filters</button>
-        </div>
         <div className="sizes">
           <button onClick={() => handleSizeFilter("S")}>S</button>
           <button onClick={() => handleSizeFilter("M")}>M</button>
@@ -38,6 +35,9 @@ function Filters({
           <button onClick={() => handlePriceFilter("highToLow")}>
             High to Low
           </button>
+        </div>
+        <div className="all">
+          <button onClick={removeFilters}>Remove Filters</button>
         </div>
       </div>
     </div>
